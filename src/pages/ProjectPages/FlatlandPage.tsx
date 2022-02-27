@@ -90,7 +90,7 @@ function FlatlandPage() {
           track, a train must ensure that the path it is taking is not of used
           by any other train to prevent any deadlock situations.
         </p>
-        <img className="result" src={"/images/Screenshot (533).png"} alt="Tabulated results" />
+        <img className="result" src={ process.env.PUBLIC_URL + "/images/Screenshot (533).png"} alt="Tabulated results" />
         <i className="caption" style={textStyle}>
           Tabulated result after testing on different Grid sizes. (a, b) where a
           = Grid of a*a and b = number of trains

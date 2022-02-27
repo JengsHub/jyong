@@ -45,7 +45,7 @@ function HealthcarePage() {
         ></img>
         <p className="indent profile-text" style={textStyle}>
           {/* eslint-disable react/jsx-no-target-blank */}
-          By utilizing
+          By utilizing 
           <a href="https://www.hl7.org/fhir/overview.html" target="_blank">
             Fast Healthcare Interoperability Resources 1 (FHIR)
           </a>
