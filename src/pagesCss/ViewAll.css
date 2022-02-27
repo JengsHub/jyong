@@ -1,0 +1,26 @@
+.view-all-projects {
+  margin: 0.65vw;
+  margin-top: 2.2786vw;
+}
+
+.view-all-icon {
+  vertical-align: middle;
+  padding-left: 0.4557vw;
+  padding-top: -0.13vw;
+}
+
+.find-out-more {
+  border-radius: 1.3vw;
+  padding-top: 0.325vw;
+  padding-bottom: 0.26vw;
+  padding-left: 1.57vw;
+  padding-right: 0.97vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: calc(10px + 0.3vw);
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 0.065vw solid rgb(201, 155, 245);
+  font-family: sans-serif;
+}

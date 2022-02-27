@@ -1,0 +1,30 @@
+.card {
+  max-width: 80%;
+  max-height: 15%;
+  margin: auto;
+  margin-top: 5%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.card-images {
+  background-repeat: repeat-y;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content {
+  flex: "1 0 auto";
+  flex-direction: column;
+  padding-left: 2%;
+}
+
+.card-heading {
+  font-size: calc(7px + 1.4vw);
+}
+
+.text {
+  font-size: calc(10px + 0.3vw);
+}

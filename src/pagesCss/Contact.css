@@ -1,0 +1,24 @@
+.contact-row {
+  display: flex;
+  justify-content: center;
+}
+
+.in-touch {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-dt {
+  padding: 0.9765vw;
+  padding-bottom: 5%;
+}
+
+.contact-dt h1 {
+  font-size: 3vw;
+  padding-left: 1.3vw;
+}
+
+.contact-dt p {
+  font-size: calc(10px + 0.3vw);
+  padding-left: 1.62vw;
+}
