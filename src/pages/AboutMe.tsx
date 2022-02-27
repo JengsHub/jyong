@@ -54,7 +54,7 @@ function AboutMe() {
       <Container>
         <img
           className="mas-flag"
-          src="/images/Malaysia.jpg"
+          src= {process.env.PUBLIC_URL + "/images/Malaysia.jpg"}
           alt="Malaysian Flag"
         ></img>
         <h2 className="intro" style={{ color: textColor }}>

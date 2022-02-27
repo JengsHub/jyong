@@ -29,7 +29,7 @@ export const GitMonitorCard: FC = () => {
           <p className="text" style={{ color: textColor }}>
             {" "}
             A system that enables users to view detailed analysis of
-            contributions to a git repository.
+            contributions of members to a git repository.
             <br></br>
             <i className="click-clue" style={{ color: textColor }}> Click to find out more.</i>
           </p>
