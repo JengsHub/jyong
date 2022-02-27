@@ -36,7 +36,7 @@ function FlatlandPage() {
         </div>
         <img
           className="flatland-gif"
-          src={"/images/flatland.gif"}
+          src={process.env.PUBLIC_URL +"/images/flatland.gif"}
           alt="Flatland gif"
         ></img>
         {/* eslint-disable react/jsx-no-target-blank */}

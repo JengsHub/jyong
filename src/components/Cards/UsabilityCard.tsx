@@ -16,7 +16,7 @@ function UsabilityCard() {
     <CardTemplate
       cardColor={"orange"}
       imgAltNAme={"Usability Logo"}
-      imgsrc={"/images/Usability.webp"}
+      imgsrc={process.env.PUBLIC_URL +"/images/Usability.webp"}
       cardContTitle={"LocalCooks Application Design"}
       children={
         <CardContent

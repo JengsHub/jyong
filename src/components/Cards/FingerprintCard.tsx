@@ -15,7 +15,7 @@ export const FingerprintCard: FC = () => {
     <CardTemplate
       cardColor={"peach"}
       imgAltNAme={"Fingerprint Logo"}
-      imgsrc={"/images/fingerprint.png"}
+      imgsrc={process.env.PUBLIC_URL +"/images/fingerprint.png"}
       cardContTitle={"Fingerprint Recognition"}
       children={
         <CardContent className="card-content" style={{ backgroundColor: bgColor, transition: "0.3s" }} >

@@ -54,7 +54,7 @@ function UsabilityPage() {
         >
           <img
             className="Question"
-            src={"/images/Screenshot (534).png"}
+            src={process.env.PUBLIC_URL +"/images/Screenshot (534).png"}
             alt="Google Form Questionnaire"
           ></img>
         </a>
@@ -69,7 +69,7 @@ function UsabilityPage() {
           <div className="item">
             <img
               className="Persona"
-              src={"/images/Persona.png"}
+              src={process.env.PUBLIC_URL +"/images/Persona.png"}
               alt="Persona"
             ></img>
             <i className="caption" style={textStyle}> Persona</i>
@@ -105,7 +105,7 @@ function UsabilityPage() {
           <div className="sketch-item">
             <img
               className="sketch"
-              src={"/images/sketch.jpg"}
+              src={process.env.PUBLIC_URL +"/images/sketch.jpg"}
               alt="Sketch"
             ></img>
             <i className="caption" style={textStyle}> Example sketch</i>
@@ -115,7 +115,7 @@ function UsabilityPage() {
           <div className="sketch-item">
             <img
               className="sketch"
-              src={"/images/Screenshot (534).png"}
+              src={process.env.PUBLIC_URL +"/images/Screenshot (534).png"}
               alt="Example of Mock up"
             ></img>
           </div>

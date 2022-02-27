@@ -16,7 +16,7 @@ function HealthcareCard() {
     <CardTemplate
       cardColor={"green"}
       imgAltNAme={"Healthcare Logo"}
-      imgsrc={"/images/healthcare.png"}
+      imgsrc={process.env.PUBLIC_URL +"/images/healthcare.png"}
       cardContTitle={"Healthcare Monitoring System"}
       children={
         <CardContent

@@ -38,7 +38,7 @@ function FingerprintPage() {
         </div>
         <img
           className="Fingerprint-History"
-          src={"/images/history-of-biometrics-2-500x278.png"}
+          src={process.env.PUBLIC_URL +"/images/history-of-biometrics-2-500x278.png"}
           alt="History of Biometrics"
         ></img>
         <p className="indent profile-text" style={textStyle}>
@@ -55,7 +55,7 @@ function FingerprintPage() {
         </p>
         <img
           className="Methodology"
-          src={"/images/Screenshot (530).png"}
+          src={process.env.PUBLIC_URL +"/images/Screenshot (530).png"}
           alt="Methodology used"
         ></img>
         <i className="caption" style={textStyle}>Methodology Used</i>
@@ -95,7 +95,7 @@ function FingerprintPage() {
         </p>
         <img
           className="Fingerprint-History"
-          src={"/images/Screenshot (531).png"}
+          src={process.env.PUBLIC_URL +"/images/Screenshot (531).png"}
           alt="Recoginition Result 1"
         ></img>
         <i className="caption" style={textStyle}>
@@ -103,7 +103,7 @@ function FingerprintPage() {
         </i>
         <img
           className="Fingerprint-History"
-          src={"/images/Screenshot (532).png"}
+          src={process.env.PUBLIC_URL +"/images/Screenshot (532).png"}
           alt="Recoginition Result 2"
         ></img>
         <i className="caption" style={textStyle}>

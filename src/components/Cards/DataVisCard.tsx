@@ -16,7 +16,7 @@ export const DataVisCard: FC = () => {
     <CardTemplate
       cardColor={"blue"}
       imgAltNAme={"Data Visualisation Logo"}
-      imgsrc={"/images/dataVis.png"}
+      imgsrc={ process.env.PUBLIC_URL + "/images/dataVis.png"}
       cardContTitle={"Data Visualisation"}
       children={
         <CardContent

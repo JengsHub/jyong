@@ -41,7 +41,7 @@ function DataVisPage() {
         >
           <img
             className="DataVis"
-            src={"/images/datavis.jpeg"}
+            src={process.env.PUBLIC_URL +"/images/datavis.jpeg"}
             alt="Data Visualisation charts"
           ></img>
         </a>
@@ -67,7 +67,7 @@ function DataVisPage() {
             >
               <img
                 className="Japan"
-                src={"/images/Picture1.jpg"}
+                src={process.env.PUBLIC_URL +"/images/Picture1.jpg"}
                 alt="Japan Visualisation"
               ></img>
             </a>
@@ -133,7 +133,7 @@ function DataVisPage() {
             >
               <img
                 className="Bubble"
-                src={"/images/Picture2.png"}
+                src={process.env.PUBLIC_URL +"/images/Picture2.png"}
                 alt="Life Expectancy Bubble Graph"
               ></img>
             </a>

@@ -40,7 +40,7 @@ function BigDataPage() {
         <img
         //   style={{ backgroundColor: "#F5F5F5", padding: '0.5vw', borderRadius: "1vw", opacity: 0.5 }}
           className="apache"
-          src={"/images/apache_spark.png"}
+          src={ process.env.PUBLIC_URL +"/images/apache_spark.png"}
           alt="Apache Spark logo"
         ></img>
         <p className="indent profile-text" style={textStyle}>
@@ -53,7 +53,7 @@ function BigDataPage() {
         </p>
         <img
           className="rdd"
-          src={"/images/rdd_operation.png"}
+          src={process.env.PUBLIC_URL +"/images/rdd_operation.png"}
           alt="Basic RDD operations"
         ></img>
         <i className="caption" style={textStyle}>
@@ -72,7 +72,7 @@ function BigDataPage() {
         </p>
         <img
           className="pipeline"
-          src={"/images/pipeline.png"}
+          src={process.env.PUBLIC_URL +"/images/pipeline.png"}
           alt="Overall Architecture."
         ></img>
         <i className="caption" style={textStyle}>
@@ -87,7 +87,7 @@ function BigDataPage() {
 
         <img
           className="pipeline"
-          src={"/images/apache_stream.png"}
+          src={process.env.PUBLIC_URL +"/images/apache_stream.png"}
           alt="Overall Architecture for streamed data."
         ></img>
         <i className="caption" style={textStyle}>

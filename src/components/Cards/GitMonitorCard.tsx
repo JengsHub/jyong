@@ -16,7 +16,7 @@ export const GitMonitorCard: FC = () => {
     <CardTemplate
       cardColor={"pink"}
       imgAltNAme={"GitHub Logo"}
-      imgsrc={"/images/git.png"}
+      imgsrc={process.env.PUBLIC_URL +"/images/git.png"}
       cardContTitle={"Git Monitoring System"}
       children={
         <CardContent

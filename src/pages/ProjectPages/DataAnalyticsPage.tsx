@@ -35,7 +35,7 @@ function DataAnalyticsPage() {
         </div>
         <img
           className="r"
-          src={"/images/r_prog_lang.png"}
+          src={process.env.PUBLIC_URL +"/images/r_prog_lang.png"}
           alt="r Programming Language Logo"
         ></img>
         <p className="indent profile-text" style={textStyle}>
@@ -46,7 +46,7 @@ function DataAnalyticsPage() {
           overall steps include understanding and pre-processing the dataset,
           analyzing dataset and reflection on how the investigation went.
         </p>
-        <img className="kdd" src={"/images/kdd.png"} alt="KDD"></img>
+        <img className="kdd" src={process.env.PUBLIC_URL +"/images/kdd.png"} alt="KDD"></img>
         <i className="caption" style={textStyle}>
           KDD Data Science Methodology.
         </i>
@@ -80,7 +80,7 @@ function DataAnalyticsPage() {
           for each of the binary classifiers I have mentioned above along with
           attempted improvements of certain classifiers.
         </p>
-        <img className="roc" src={"/images/ROC.png"} alt="ROC plot"></img>
+        <img className="roc" src={process.env.PUBLIC_URL +"/images/ROC.png"} alt="ROC plot"></img>
         <i className="caption" style={textStyle}>
           ROC Curve of different classification models.
         </i>

@@ -36,7 +36,7 @@ function GitMonitorPage() {
         <img
           style={{ backgroundColor: "#F5F5F5" }}
           className="git-logo"
-          src={"/images/Github.jpg"}
+          src={process.env.PUBLIC_URL +"/images/Github.jpg"}
           alt="github logo"
         ></img>
         <p className=" indent profile-text" style={textStyle}>
@@ -60,7 +60,7 @@ function GitMonitorPage() {
         >
           <img
             className="git-monitoring"
-            src={"/images/git monitoring.png"}
+            src={process.env.PUBLIC_URL +"/images/git monitoring.png"}
             alt="github monitoring"
           ></img>
         </a>
@@ -86,7 +86,7 @@ developer.github.com/v3/activity/events/types/#pushevent"
         </p>
         <img
           className="ui"
-          src={"/images/Login_page.png"}
+          src={process.env.PUBLIC_URL +"/images/Login_page.png"}
           alt="Login Page"
         ></img>
         <i className="caption" style={textStyle}>
@@ -94,7 +94,7 @@ developer.github.com/v3/activity/events/types/#pushevent"
         </i>
         <img
           className="ui"
-          src={"/images/Screenshot (17).png"}
+          src={process.env.PUBLIC_URL +"/images/Screenshot (17).png"}
           alt="GitHub repository contributers"
         ></img>
         <i className="caption" style={textStyle}>

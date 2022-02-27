@@ -40,7 +40,7 @@ function HealthcarePage() {
         </div>
         <img
           className="git-logo"
-          src={"/images/FHIR.png"}
+          src={process.env.PUBLIC_URL +"/images/FHIR.png"}
           alt="FHIR logo"
         ></img>
         <p className="indent profile-text" style={textStyle}>
@@ -56,21 +56,21 @@ function HealthcarePage() {
           <div className="column-3">
             <img
               className="logo-flutter"
-              src={"/images/flutter.png"}
+              src={process.env.PUBLIC_URL +"/images/flutter.png"}
               alt="Flutter logo"
             ></img>
           </div>
           <div className="column-3">
             <img
               className="logo-flutter"
-              src={"/images/android studio.svg"}
+              src={process.env.PUBLIC_URL +"/images/android studio.svg"}
               alt="Android Studio logo"
             ></img>
           </div>
           <div className="column-3">
             <img
               className="logo-flutter"
-              src={"/images/dart.svg"}
+              src={process.env.PUBLIC_URL +"/images/dart.svg"}
               alt="Dart logo"
             ></img>
           </div>
@@ -97,7 +97,7 @@ function HealthcarePage() {
         </p>
         <img
           className="conceptual-diagram"
-          src={"/images/HealthUML.png"}
+          src={process.env.PUBLIC_URL +"/images/HealthUML.png"}
           alt="UML"
         ></img>
         <i className="caption"> Conceptual Class Diagram</i>
@@ -125,7 +125,7 @@ function HealthcarePage() {
           <div className="column-3">
             <img
               className="app-ss"
-              src={"/images/mainApp.jpg"}
+              src={process.env.PUBLIC_URL +"/images/mainApp.jpg"}
               alt="Application frontpage"
             ></img>
             <i className="caption" style={textStyle}> Main Page</i>
@@ -133,7 +133,7 @@ function HealthcarePage() {
           <div className="column-3">
             <img
               className="app-ss"
-              src={"/images/cholesterol.jpg"}
+              src={process.env.PUBLIC_URL +"/images/cholesterol.jpg"}
               alt="Cholestrol Page"
             ></img>
             <i className="caption" style={textStyle}> Cholesterol Detail Page</i>
@@ -141,7 +141,7 @@ function HealthcarePage() {
           <div className="column-3">
             <img
               className="app-ss"
-              src={"/images/BloodPressure.jpg"}
+              src={process.env.PUBLIC_URL +"/images/BloodPressure.jpg"}
               alt="Blood Pressure Page"
             ></img>
             <i className="caption" style={textStyle}> Blood Pressure Detail Page</i>

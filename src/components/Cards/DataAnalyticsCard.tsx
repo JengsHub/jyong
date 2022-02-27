@@ -16,7 +16,7 @@ export const DataAnalyticsCard: FC = () => {
     <CardTemplate
       cardColor={"yellow"}
       imgAltNAme={"Data Analytics Logo"}
-      imgsrc={"/images/data_analytics.png"}
+      imgsrc={process.env.PUBLIC_URL +"/images/data_analytics.png"}
       cardContTitle={"Data Analytics"}
       children={
         <CardContent

@@ -42,7 +42,7 @@ function TASProjectPage() {
         </div>
         <img
           className="TAS-logo"
-          src={"/images/TAS-logofull.png"}
+          src={process.env.PUBLIC_URL +"/images/TAS-logofull.png"}
           alt="TAS logo"
         ></img>
         <p className="indent profile-text" style={textStyle}>
@@ -57,7 +57,7 @@ function TASProjectPage() {
         </p>
         <img
           className="safe-logo"
-          src={"/images/Safe.png"}
+          src={process.env.PUBLIC_URL +"/images/Safe.png"}
           alt="SAFe logo"
         ></img>
         <p className="indent profile-text" style={textStyle}>
@@ -90,7 +90,7 @@ function TASProjectPage() {
         </p>
         <img
           className="conceptual-diagram"
-          src={"/images/Conceptual_Model.png"}
+          src={process.env.PUBLIC_URL +"/images/Conceptual_Model.png"}
           alt="UML diagram"
         ></img>
         <i className="caption" style={textStyle}>
@@ -111,7 +111,7 @@ function TASProjectPage() {
 
         <img
           className="database-diagram"
-          src={"/images/DatabaseDraft.png"}
+          src={process.env.PUBLIC_URL +"/images/DatabaseDraft.png"}
           alt="Database Modal"
         ></img>
         <i className="caption" style={textStyle}>
@@ -153,7 +153,7 @@ function TASProjectPage() {
         </p>
         <img
           className="database-diagram"
-          src={"/images/Screenshot (527).png"}
+          src={process.env.PUBLIC_URL +"/images/Screenshot (527).png"}
           alt="Screenshot 1"
         ></img>
         <i className="caption" style={textStyle}>
@@ -161,7 +161,7 @@ function TASProjectPage() {
         </i>
         <img
           className="database-diagram"
-          src={"/images/Screenshot (528).png"}
+          src={process.env.PUBLIC_URL +"/images/Screenshot (528).png"}
           alt="Screenshot 2"
         ></img>
         <i className="caption" style={textStyle}>
@@ -169,7 +169,7 @@ function TASProjectPage() {
         </i>
         <img
           className="database-diagram"
-          src={"/images/Screenshot (529).png"}
+          src={process.env.PUBLIC_URL +"/images/Screenshot (529).png"}
           alt="Screenshot 3"
         ></img>
         <i className="caption" style={textStyle}>
