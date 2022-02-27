@@ -95,12 +95,13 @@ function Profile() {
       </div>
       <div>
         <p className="profile-text" style={barStyle}>
-          I'm an aspiring software engineer who is currently pursuing a degree
-          in Software Engineering at Monash University Malaysia. My biggest
-          advantage is probably my outgoing personality which has provided me
-          with the ability to adapt and establish a stable environment for me to
-          perform. Additionally, I am no stranger to software development
-          processes such as {/* eslint-disable react/jsx-no-target-blank */}
+          I'm an aspiring software engineer who has recently graduated from the
+          Faculty of Engineering (Software) at Monash University Malaysia. My
+          interests in this field is rather vast and my biggest advantage is
+          probably my outgoing personality which has provided me with the
+          ability to adapt and establish a stable environment for me to perform.
+          Additionally, I am no stranger to software development processes such
+          as {/* eslint-disable react/jsx-no-target-blank */}
           {/* TO-DO: Different Color Schem for links */}
           <a
             href="https://www.scrum.org/resources/what-is-scrum"

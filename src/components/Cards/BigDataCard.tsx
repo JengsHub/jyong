@@ -39,7 +39,7 @@ export const BigDataCard: FC = () => {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/FlatlandChallenge"}
+      navPath={"/portfolio/projects/BigDataProcessing"}
     />
   );
 };

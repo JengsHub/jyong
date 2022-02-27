@@ -7,6 +7,15 @@ import { RootState } from "./ic-redux/store";
 import Container from "@mui/material/Container";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
+import TASProjectPage from "./pages/ProjectPages/TASProjectPage";
+import FlatlandPage from "./pages/ProjectPages/FlatlandPage";
+import BigDataPage from "./pages/ProjectPages/BigDataPage";
+import HealthcarePage from "./pages/ProjectPages/HealthcarePage";
+import UsabilityPage from "./pages/ProjectPages/UsabilityPage";
+import FingerprintPage from "./pages/ProjectPages/FingerprintPage";
+import GitMonitorPage from "./pages/ProjectPages/GitMonitorPage";
+import DataVisPage from "./pages/ProjectPages/DataVisPage";
+import DataAnalyticsPage from "./pages/ProjectPages/DataAnalyticsPage";
 
 function AppRoutes() {
   const { colors } = select((state: RootState) => ({
@@ -50,55 +59,43 @@ function AppRoutes() {
         <Route path="/portfolio" element={<Home />}></Route>
         <Route path="/portfolio/about" element={<AboutMe />}></Route>
         <Route path="/portfolio/projects" element={<Projects />}></Route>
-        <Route path="*" element={<NotFound />}></Route>
-        {/* <Route exact path="/portfolio" component={Home}></Route>
-        <Route exact path="/portfolio/about" component={About}></Route>
-        <Route exact path="/portfolio/projects" component={Projects}></Route>
         <Route
-          exact
           path="/portfolio/projects/TutorAllocationSystem"
-          component={TASProjectPage}
+          element={<TASProjectPage />}
         ></Route>
         <Route
-          exact
-          path="/portfolio/projects/DataVisualisation"
-          component={DataVisPage}
-        ></Route>
-        <Route
-          exact
-          path="/portfolio/projects/Fingerprint"
-          component={FingerprintPage}
-        ></Route>
-        <Route
-          exact
-          path="/portfolio/projects/Usability"
-          component={UsabilityPage}
-        ></Route>
-        <Route
-          exact
-          path="/portfolio/projects/HealthcareMonitoringSystem"
-          component={HealthcarePage}
-        ></Route>
-        <Route
-          exact
           path="/portfolio/projects/FlatlandChallenge"
-          component={FlatlandPage}
+          element={<FlatlandPage />}
         ></Route>
         <Route
-          exact
-          path="/portfolio/projects/GitMonitoringSystem"
-          component={GitMonitorPage}
-        ></Route>
-        <Route
-          exact
           path="/portfolio/projects/BigDataProcessing"
-          component={BigDataPage}
+          element={<BigDataPage />}
         ></Route>
         <Route
-          exact
+          path="/portfolio/projects/HealthcareMonitoringSystem"
+          element={<HealthcarePage />}
+        ></Route>
+        <Route
+          path="/portfolio/projects/Usability"
+          element={<UsabilityPage />}
+        ></Route>
+        <Route
+          path="/portfolio/projects/Fingerprint"
+          element={<FingerprintPage />}
+        ></Route>
+        <Route
+          path="/portfolio/projects/GitMonitoringSystem"
+          element={<GitMonitorPage />}
+        ></Route>
+        <Route
+          path="/portfolio/projects/DataVisualisation"
+          element={<DataVisPage />}
+        ></Route>
+        <Route
           path="/portfolio/projects/DataAnalytics"
-          component={DataAnalyticsPage}
-        ></Route> */}
+          element={<DataAnalyticsPage />}
+        ></Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </div>
   );

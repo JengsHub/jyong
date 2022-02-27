@@ -28,8 +28,8 @@ function RecentWorks() {
         </p>
       </div>
       <TASCard />
-      <FlatlandCard />
       <BigDataCard />
+      <FlatlandCard />
       <ViewAll />
       {/* <TASCard></TASCard>
       <FlatlandCard></FlatlandCard>
