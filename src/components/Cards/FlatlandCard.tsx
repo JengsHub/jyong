@@ -15,7 +15,7 @@ export const FlatlandCard: FC = () => {
     <CardTemplate
       cardColor={"yellow"}
       imgAltNAme={"Flatland Logo"}
-      imgsrc={"/images/flatland-logo.svg"}
+      imgsrc={process.env.PUBLIC_URL + "/images/flatland-logo.svg"}
       cardContTitle={"Flatland Challenge"}
       children={
         <CardContent className="card-content" style={{ backgroundColor: bgColor, transition: "0.3s" }} >

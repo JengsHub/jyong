@@ -15,7 +15,7 @@ export const BigDataCard: FC = () => {
     <CardTemplate
       cardColor={"blue"}
       imgAltNAme={"Big Data Logo"}
-      imgsrc={"/images/big_data.png"}
+      imgsrc={process.env.PUBLIC_URL + "/images/big_data.png"}
       cardContTitle={"Big Data Processing"}
       children={
         <CardContent

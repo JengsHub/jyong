@@ -15,7 +15,7 @@ export const TASCard: FC = () => {
     <CardTemplate
       cardColor={"purple"}
       imgAltNAme={"TAS Logo"}
-      imgsrc={"/images/logofull.png"}
+      imgsrc={process.env.PUBLIC_URL + "/images/logofull.png"}
       cardContTitle={"Tutor Allocation System"}
       children={
         <CardContent className="card-content" style={{ backgroundColor: bgColor, transition: "0.3s" }} >
