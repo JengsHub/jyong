@@ -100,7 +100,7 @@ function HealthcarePage() {
           src={process.env.PUBLIC_URL +"/images/HealthUML.png"}
           alt="UML"
         ></img>
-        <i className="caption"> Conceptual Class Diagram</i>
+        <i className="caption" style={textStyle}> Conceptual Class Diagram</i>
         <p className="indent profile-text" style={textStyle}>
           Subsequently, development of an interactive and informative interface
           began. This allows health practitioners clearly view and identify
