@@ -38,6 +38,7 @@
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
+  word-wrap: break-word;
 }
 
 /* Animation */
@@ -75,5 +76,33 @@
   }
   to {
     border-right-color: transparent;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .me-icon {
+    margin-bottom: 1vw;
+  }
+
+  .line-1 {
+    font-size: 2.3vw;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 40vw;
+    }
+  }
+
+  @keyframes typewriter-2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 30vw;
+    }
   }
 }
