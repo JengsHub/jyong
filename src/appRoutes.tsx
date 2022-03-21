@@ -35,7 +35,7 @@ function AppRoutes() {
             <NavLink
               className="nav-bar-fade"
               style={barStyle}
-              to="/portfolio/about"
+              to="/about"
             >
               ABOUT ME
             </NavLink>
@@ -44,11 +44,11 @@ function AppRoutes() {
             <NavLink
               className="nav-bar-fade"
               style={barStyle}
-              to="/portfolio/projects"
+              to="/projects"
             >
               PROJECTS
             </NavLink>
-            <NavLink className="nav-bar-fade" style={barStyle} to="/portfolio">
+            <NavLink className="nav-bar-fade" style={barStyle} to="/">
               HOME
             </NavLink>
           </div>
@@ -56,43 +56,43 @@ function AppRoutes() {
       </Container>
 
       <Routes>
-        <Route path="/portfolio" element={<Home />}></Route>
-        <Route path="/portfolio/about" element={<AboutMe />}></Route>
-        <Route path="/portfolio/projects" element={<Projects />}></Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<AboutMe />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
         <Route
-          path="/portfolio/projects/TutorAllocationSystem"
+          path="/projects/TutorAllocationSystem"
           element={<TASProjectPage />}
         ></Route>
         <Route
-          path="/portfolio/projects/FlatlandChallenge"
+          path="/projects/FlatlandChallenge"
           element={<FlatlandPage />}
         ></Route>
         <Route
-          path="/portfolio/projects/BigDataProcessing"
+          path="/projects/BigDataProcessing"
           element={<BigDataPage />}
         ></Route>
         <Route
-          path="/portfolio/projects/HealthcareMonitoringSystem"
+          path="/projects/HealthcareMonitoringSystem"
           element={<HealthcarePage />}
         ></Route>
         <Route
-          path="/portfolio/projects/Usability"
+          path="/projects/Usability"
           element={<UsabilityPage />}
         ></Route>
         <Route
-          path="/portfolio/projects/Fingerprint"
+          path="/projects/Fingerprint"
           element={<FingerprintPage />}
         ></Route>
         <Route
-          path="/portfolio/projects/GitMonitoringSystem"
+          path="/projects/GitMonitoringSystem"
           element={<GitMonitorPage />}
         ></Route>
         <Route
-          path="/portfolio/projects/DataVisualisation"
+          path="/projects/DataVisualisation"
           element={<DataVisPage />}
         ></Route>
         <Route
-          path="/portfolio/projects/DataAnalytics"
+          path="/projects/DataAnalytics"
           element={<DataAnalyticsPage />}
         ></Route>
         <Route path="*" element={<NotFound />}></Route>

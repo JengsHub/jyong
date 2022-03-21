@@ -30,7 +30,7 @@ export const FingerprintCard: FC = () => {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/Fingerprint"}
+      navPath={"/projects/Fingerprint"}
     />
   );
 };

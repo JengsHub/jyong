@@ -37,7 +37,7 @@ function HealthcareCard() {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/HealthcareMonitoringSystem"}
+      navPath={"/projects/HealthcareMonitoringSystem"}
     />
   );
 }

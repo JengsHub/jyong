@@ -36,7 +36,7 @@ function UsabilityCard() {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/Usability"}
+      navPath={"/projects/Usability"}
     />
   );
 }

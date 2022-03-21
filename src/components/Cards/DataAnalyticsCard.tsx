@@ -36,7 +36,7 @@ export const DataAnalyticsCard: FC = () => {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/DataAnalytics"}
+      navPath={"/projects/DataAnalytics"}
     />
   );
 }

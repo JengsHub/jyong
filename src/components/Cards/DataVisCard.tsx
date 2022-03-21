@@ -36,7 +36,7 @@ export const DataVisCard: FC = () => {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/DataVisualisation"}
+      navPath={"/projects/DataVisualisation"}
     />
   );
 }

@@ -35,7 +35,7 @@ export const GitMonitorCard: FC = () => {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/GitMonitoringSystem"}
+      navPath={"/projects/GitMonitoringSystem"}
     />
   );
 }

@@ -30,7 +30,7 @@ export const TASCard: FC = () => {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/TutorAllocationSystem"}
+      navPath={"/projects/TutorAllocationSystem"}
     />
   );
 };

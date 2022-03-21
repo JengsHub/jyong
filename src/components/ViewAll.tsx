@@ -21,7 +21,7 @@ function ViewAll() {
       <div className="button-wrapper">
         <button
           className="view-all-projects find-out-more"
-          onClick={() => history("/portfolio/projects")}
+          onClick={() => history("/projects")}
           style = {{ color: textColor, backgroundColor: bgColor }}
         >
           View All Projects{" "}

@@ -34,7 +34,7 @@ export const FlatlandCard: FC = () => {
           </p>
         </CardContent>
       }
-      navPath={"/portfolio/projects/FlatlandChallenge"}
+      navPath={"/projects/FlatlandChallenge"}
     />
   );
 };
